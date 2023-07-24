@@ -33,10 +33,10 @@ evennumber(start, end)
 
 def draw_square(side_length, symbol, filled):
     if filled:
-        for _ in range(side_length):                
+        for _ in range(side_length):
             print(symbol * side_length)
     else:
-        for i in range(side_length):                
+        for i in range(side_length):
             if i == 0 or i == side_length - 1:
                 print(symbol * side_length)
             else:
